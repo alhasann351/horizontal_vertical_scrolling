@@ -39,14 +39,110 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Card(
-              color: Theme.of(context).primaryColor,
-              elevation: 15,
-              child: SizedBox(
-                height: 200,
-                child: Image.network(
-                  'https://raw.githubusercontent.com/alhasann351/shoes_app/master/images/shoes10.png',
-                ),
+            child: SizedBox(
+              height: 200,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Card(
+                      color: Colors.blueAccent,
+                      elevation: 15,
+                      child: SizedBox(
+                        height: 200,
+                        width: 200,
+                        child: Image.network(
+                          'https://raw.githubusercontent.com/alhasann351/shoes_app/master/images/shoes10.png',
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Card(
+                      color: Colors.blueAccent,
+                      elevation: 15,
+                      child: SizedBox(
+                        height: 200,
+                        width: 200,
+                        child: Image.network(
+                          'https://raw.githubusercontent.com/alhasann351/shoes_app/master/images/shoes5.png',
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Card(
+                      color: Colors.blueAccent,
+                      elevation: 15,
+                      child: SizedBox(
+                        height: 200,
+                        width: 200,
+                        child: Image.network(
+                          'https://raw.githubusercontent.com/alhasann351/shoes_app/master/images/shoes13.png',
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Card(
+                      color: Colors.blueAccent,
+                      elevation: 15,
+                      child: SizedBox(
+                        height: 200,
+                        width: 200,
+                        child: Image.network(
+                          'https://raw.githubusercontent.com/alhasann351/shoes_app/master/images/shoes3.png',
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Card(
+                      color: Colors.blueAccent,
+                      elevation: 15,
+                      child: SizedBox(
+                        height: 200,
+                        width: 200,
+                        child: Image.network(
+                          'https://raw.githubusercontent.com/alhasann351/shoes_app/master/images/shoes3.png',
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Card(
+                      color: Colors.blueAccent,
+                      elevation: 15,
+                      child: SizedBox(
+                        height: 200,
+                        width: 200,
+                        child: Image.network(
+                          'https://raw.githubusercontent.com/alhasann351/shoes_app/master/images/shoes5.png',
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Card(
+                      color: Colors.blueAccent,
+                      elevation: 15,
+                      child: SizedBox(
+                        height: 200,
+                        width: 200,
+                        child: Image.network(
+                          'https://raw.githubusercontent.com/alhasann351/shoes_app/master/images/shoes1.png',
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
